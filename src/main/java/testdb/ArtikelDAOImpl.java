@@ -41,13 +41,14 @@ public class ArtikelDAOImpl implements ArtikelDAO
                     + " (ID, name)"
                     + " values ('"+nummer+"'" +
                       ",'"+name+"')";
-            System.out.println(sql);
+
             state.executeUpdate(sql);
-            System.out.println(sql);
+
         }
         catch(Exception e)
         {
             System.out.println(e);
+
         }
     }
 

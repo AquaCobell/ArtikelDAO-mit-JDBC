@@ -12,7 +12,7 @@ public class App2
     {
 
        ArtikelDAOImpl test2 = new ArtikelDAOImpl();
-       Artikel test = new Artikel(1,"test");
+       Artikel test = new Artikel(2,"test");
        test2.insert(test);
 
        Artikel hallo = new Artikel(1,"hallo");
@@ -22,12 +22,5 @@ public class App2
 
        ArrayList<Artikel> testo = test2.getAll();
        System.out.println("");
-
-
-
-
-
-
-
     }
 }
