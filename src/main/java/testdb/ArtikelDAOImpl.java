@@ -44,16 +44,6 @@ public class ArtikelDAOImpl implements ArtikelDAO
             System.out.println(sql);
             state.executeUpdate(sql);
             System.out.println(sql);
-
-
-
-            /*String sql = "insert into invoice "
-                    + " (date, description, value, paid)"
-                    + " values ('"+date+"'" +
-                    ",'"+description+"'" +
-                    ",'"+value+"'" +
-                    ",'"+paid+"')";
-            state.executeUpdate(sql); */
         }
         catch(Exception e)
         {
@@ -119,7 +109,7 @@ public class ArtikelDAOImpl implements ArtikelDAO
         try
         {
             Statement state = con.createStatement();
-            ResultSet rs= state.executeQuery("select * from invoice");
+            ResultSet rs= state.executeQuery("select * from artikel");
 
             while(rs.next())
             {
@@ -143,7 +133,7 @@ public class ArtikelDAOImpl implements ArtikelDAO
         try
         {
             Statement state = con.createStatement();
-            ResultSet rs= state.executeQuery("select * from invoice");
+            ResultSet rs= state.executeQuery("select * from artikel");
 
             while(rs.next())
             {
