@@ -1,1 +1,0 @@
-In der Main-Methode befinden sich einige Befehle die für Testzwecke dort sind. Sie können bei Bedarf auskommentiert werden um den Code auf seine Funktionalität prüfen zu können.
